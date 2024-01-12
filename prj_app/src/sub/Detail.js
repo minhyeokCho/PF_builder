@@ -28,7 +28,7 @@ const Detail = () => {
 	return (
 		<>
 			{/* 뒤로가기 */}
-			<a href="/Portfolio_Build" title='BACK' className='close'>
+			<a href="/PF_builder" title='BACK' className='close'>
 				<div className='close_inner'><em className='num_01' style={{backgroundColor:colorCode}}></em><em className='num_02' style={{backgroundColor:colorCode}}></em><span>BACK</span></div>
 			</a>
 			{/*// 뒤로가기 */}

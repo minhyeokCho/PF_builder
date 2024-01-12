@@ -4,7 +4,7 @@ const Head = () => {
 	return (
 		<header>
 			<div className='inner'>
-				<a href="/Portfolio_Build" className='name'>MIN HYEOK Portfolio</a>
+				<a href="/PF_builder" className='name'>MIN HYEOK Portfolio</a>
 				{/* <a href="#" className='theme'>
 					<div className='theme_text'>
 						<span className='theme_text_mask'>

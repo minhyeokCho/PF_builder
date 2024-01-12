@@ -11,7 +11,7 @@ const UtilBtn = () => {
 	return (
 		<div className='util_btn'>
 			<div className='file_down'>
-				<a href="/Portfolio_Build/img/조민혁_이력서.pdf" download="" id="down_input">
+				<a href="/PF_builder/img/조민혁_이력서.pdf" download="" id="down_input">
 					<label htmlFor="down_input">
 						<div className='box'>
 							<svg width="30" height="20" viewBox="0 0 66 57" fill="none" xmlns="http://www.w3.org/2000/svg">

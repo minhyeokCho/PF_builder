@@ -24,7 +24,7 @@ const FramePC = ({pcSlideImg}) => {
 		<div className='pf_sec'>
 			<div className='frame frame_pc'>
 				<figure className='frame_img'>
-					<img src="/Portfolio_Build/img/frame_pc.png" alt="PC FRAME" />
+					<img src="/PF_builder/img/frame_pc.png" alt="PC FRAME" />
 				</figure>
 				<div className='frame_inner'>
 					<div className='scroll_area'>

@@ -8,7 +8,7 @@ const Card = () => {
 		<div className='main_visual' id={isActive}>
 			<div className='card'>
 				<div className="card_header">
-					<img className="avatar" src="/Portfolio_Build/img/thumb.jpg" alt="avatar" />
+					<img className="avatar" src="/PF_builder/img/thumb.jpg" alt="avatar" />
 					<div className='txt_wrap'>
 						<h1 className="name">CHO MINHYEOK</h1>
 						<p className="job">UI Developer</p>
@@ -35,7 +35,7 @@ const Card = () => {
 					{/*// ABOUT */}
 
 					{/* EXPERIENCE */}
-					<div className={isActive ==="experience" ? 'isActive' : null } id="experience">
+					{/* <div className={isActive ==="experience" ? 'isActive' : null } id="experience">
 						<div className='card_content'>
 							<h2 className='card_subtitle'>WORK EXPERIENCE</h2>
 							<div className="card_timeline">
@@ -49,7 +49,7 @@ const Card = () => {
 								</div>
 							</div>
 						</div>
-					</div>
+					</div> */}
 					{/*// EXPERIENCE */}
 
 					{/* CONTACT */}
@@ -89,7 +89,7 @@ const Card = () => {
 
 				<div className="card_btn">
 					<button className={isActive ==="about" ? 'isActive' : null } onClick={() => setIsActive('about')} data-section="#about">ABOUT</button>
-					<button className={isActive ==="experience" ? 'isActive' : null } onClick={() => setIsActive('experience')} data-section="#experience">EXPERIENCE</button>
+					{/* <button className={isActive ==="experience" ? 'isActive' : null } onClick={() => setIsActive('experience')} data-section="#experience">EXPERIENCE</button> */}
 					<button className={isActive ==="contact" ? 'isActive' : null } onClick={() => setIsActive('contact')} data-section="#contact">CONTACT</button>
 				</div>
 			</div>

@@ -24,7 +24,7 @@ const FrameMo = ({moSlideImg}) => {
 		<div className='pf_sec'>
 			<div className='frame frame_mo'>
 				<figure className='frame_img'>
-					<img src="/Portfolio_Build/img/frame_mo.png" alt="MOBILE FRAME" />
+					<img src="/PF_builder/img/frame_mo.png" alt="MOBILE FRAME" />
 				</figure>
 				<div className='frame_inner'>
 					<div className='scroll_area'>
